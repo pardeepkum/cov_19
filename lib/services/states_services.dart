@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:crona_virus/model/WorldStatesModel.dart';
+import 'package:crona_virus/model/World_Model.dart';
 import 'package:crona_virus/services/utility/app_url.dart';
 import 'package:http/http.dart' as http;
 
