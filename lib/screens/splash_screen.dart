@@ -1,3 +1,4 @@
+import 'package:crona_virus/screens/dropdown_api_screen.dart';
 import 'package:crona_virus/screens/world_states.dart';
 import 'package:crona_virus/services/states_services.dart';
 import 'package:flutter/material.dart';
@@ -50,10 +51,10 @@ class _SplashScreenState extends State<SplashScreen>
           children: [
             AnimatedBuilder(
               animation: _controller,
-              child: Container(
+              child: const SizedBox(
                 height: 200,
                 width: 200,
-                child: const Center(
+                child: Center(
                   child: Image(image: AssetImage('assets/crona_virus.png')),
                 ),
               ),
