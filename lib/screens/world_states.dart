@@ -2,6 +2,8 @@ import 'package:crona_virus/screens/country_screen.dart';
 import 'package:crona_virus/services/states_services.dart';
 import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
+
+import '../model/World_Model.dart';
 import '../model/World_Model.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
